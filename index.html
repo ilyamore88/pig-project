@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pig</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .view {
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
+</head>
+<body>
+<model-viewer
+        alt="Pig"
+        src="./pig.glb"
+        ios-src="./pig.usdz"
+        ar
+        ar-modes="webxr scene-viewer quick-look"
+        shadow-intensity="1"
+        camera-controls
+        class="view"
+/>
+</body>
+</html>
